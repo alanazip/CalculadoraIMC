@@ -22,7 +22,7 @@ class ResultActivity : AppCompatActivity() {
         val tvClassificacao = findViewById<TextView>(R.id.tv_classificacao)
 
         tvResult.text = result.toString()
-// Definindo a cor e a classificação com base no resultado
+// Definindo a cor e a classificação com resultado
         val (classificacao, color) = when {
             result <= 18.5f -> {
                 "MAGREZA" to Color.BLUE // Cor para MAGREZA
