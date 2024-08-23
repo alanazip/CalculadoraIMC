@@ -3,7 +3,7 @@ Desc
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-<img src "https://github.com/user-attachments/assets/13016b9a-ecfe-4119-a11b-d1b836b11a5b" width = 240>
+<img src="https://github.com/user-attachments/assets/13016b9a-ecfe-4119-a11b-d1b836b11a5b" width="240">
 
 ![Screenshot_20240823_150358](https://github.com/user-attachments/assets/13016b9a-ecfe-4119-a11b-d1b836b11a5b)
 ![Screenshot_20240823_150429](https://github.com/user-attachments/assets/1e86f8a6-d47d-4f19-b84b-3c187bf7f564)
