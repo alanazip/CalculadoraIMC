@@ -1,5 +1,6 @@
 package com.comunidadedevspace.imc
 
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -21,20 +22,32 @@ class ResultActivity : AppCompatActivity() {
         val tvClassificacao = findViewById<TextView>(R.id.tv_classificacao)
 
         tvResult.text = result.toString()
-
-        val classificacao: String = if (result <= 18.5f){
-            "MAGREZA"
-        }   else if (result > 18.5f && result <= 24.9f){
-            "NORMAL"
-        }   else if (result > 25f && result <= 29.9f){
-            "SOBREPESO"
-        }   else if (result > 30f && result <= 39.9f){
-            "OBESIDADE"
-        }   else {
-            "OBESIDADE GRAVE"
+// Definindo a cor e a classificação com base no resultado
+        val (classificacao, color) = when {
+            result <= 18.5f -> {
+                "MAGREZA" to Color.BLUE // Cor para MAGREZA
+            }
+            result > 18.5f && result <= 24.9f -> {
+                "NORMAL" to Color.GREEN // Cor para NORMAL
+            }
+            result > 25f && result <= 29.9f -> {
+                "SOBREPESO" to Color.YELLOW // Cor para SOBREPESO
+            }
+            result > 30f && result <= 39.9f -> {
+                "OBESIDADE" to Color.RED // Cor para OBESIDADE
+            }
+            else -> {
+                "OBESIDADE GRAVE" to Color.RED // Cor para OBESIDADE GRAVE
+            }
         }
 
+// Aplicando a cor e o texto ao TextView
         tvClassificacao.text = classificacao
+        tvClassificacao.setTextColor(color)
+
+// Mostrando o resultado
+        tvResult.text = result.toString()
+
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
