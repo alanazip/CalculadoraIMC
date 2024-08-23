@@ -3,6 +3,15 @@ Desc
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
+<img src "https://github.com/user-attachments/assets/13016b9a-ecfe-4119-a11b-d1b836b11a5b" width = 240
+
+![Screenshot_20240823_150358](https://github.com/user-attachments/assets/13016b9a-ecfe-4119-a11b-d1b836b11a5b)
+![Screenshot_20240823_150429](https://github.com/user-attachments/assets/1e86f8a6-d47d-4f19-b84b-3c187bf7f564)
+![Screenshot_20240823_150505](https://github.com/user-attachments/assets/68066283-9d89-4625-a677-d87780f1c398)
+![Screenshot_20240823_150534](https://github.com/user-attachments/assets/cf66d3b9-b261-47f4-9549-24af93361fac)
+
+
+
 Screenshots
 
 ## Tecnologias
